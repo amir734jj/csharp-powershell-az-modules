@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/csharp,dotnetcore,jetbrains+all
-# Edit at https://www.toptal.com/developers/gitignore?templates=csharp,dotnetcore,jetbrains+all
+# Created by https://www.toptal.com/developers/gitignore/api/dotnetcore,jetbrains+all,csharp
+# Edit at https://www.toptal.com/developers/gitignore?templates=dotnetcore,jetbrains+all,csharp
 
 ### Csharp ###
 ## Ignore Visual Studio temporary files, build results, and
@@ -496,4 +496,4 @@ fabric.properties
 !.idea/codeStyles
 !.idea/runConfigurations
 
-# End of https://www.toptal.com/developers/gitignore/api/csharp,dotnetcore,jetbrains+all
+# End of https://www.toptal.com/developers/gitignore/api/dotnetcore,jetbrains+all,csharp
