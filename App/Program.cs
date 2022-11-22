@@ -59,6 +59,7 @@ public static class PowerShellUtility
 
         return await RunPsSession(powershell =>
         {
+            powershell.AddScript("Set-ExecutionPolicy -ExecutionPolicy Unrestricted;");
             powershell.AddScript($"Set-Location -Path {workingDirectory};");
             powershell.AddScript($"{path};");
         }, environments);
